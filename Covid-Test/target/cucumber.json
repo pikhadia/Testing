@@ -1,0 +1,185 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3152314800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Login.setup()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Navigate to covidstreamline.com app",
+        "description": "",
+        "id": "sign-up-as-a-visitor;navigate-to-covidstreamline.com-app",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 38601374400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User navigates to covid app",
+            "match": {
+              "location": "Login.user_navigates_to_covid_app()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2045871400,
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"/html/body/div[1]/div[5]/div/div/div/div/div[2]/button\"}\n  (Session info: chrome\u003d88.0.4324.150)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.6.0\u0027, revision: \u00276fbf3ec767\u0027, time: \u00272017-09-27T15:28:36.4Z\u0027\nSystem info: host: \u0027PHUMUDZOKHADIAM\u0027, ip: \u0027172.29.176.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002715.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{networkConnectionEnabled\u003dfalse, chrome\u003d{chromedriverVersion\u003d88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}), userDataDir\u003dC:\\Users\\phumudzo.khadiamovha\\AppData\\Local\\Temp\\scoped_dir23320_447618062}, timeouts\u003d{implicit\u003d0, pageLoad\u003d300000, script\u003d30000}, pageLoadStrategy\u003dnormal, unhandledPromptBehavior\u003ddismiss and notify, strictFileInteractability\u003dfalse, platform\u003dWINDOWS, proxy\u003dProxy(), goog:chromeOptions\u003d{debuggerAddress\u003dlocalhost:51560}, acceptInsecureCerts\u003dfalse, browserVersion\u003d88.0.4324.150, browserName\u003dchrome, javascriptEnabled\u003dtrue, platformName\u003dWINDOWS, setWindowRect\u003dtrue, webauthn:extension:largeBlob\u003dtrue, webauthn:virtualAuthenticators\u003dtrue}]\nSession ID: 1e9b99c93bf9fda7d2773fcecd385a95\n*** Element info: {Using\u003dxpath, value\u003d/html/body/div[1]/div[5]/div/div/div/div/div[2]/button}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:458)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:361)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)\r\n\tat CucumberFramework.stepFiles.Login.user_clicks_on_the_accept_button_on_homepage(Login.java:65)\r\n\tat ✽.And User clicks on the accept button on homepage(Login.feature:6)\r\n",
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "User clicks on the accept button on homepage",
+            "match": {
+              "location": "Login.user_clicks_on_the_accept_button_on_homepage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "User clicks the visitor button",
+            "match": {
+              "location": "Login.user_clicks_the_visitor_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "User enters fullname",
+            "match": {
+              "location": "Login.user_enters_fullname()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "User enters a valid ID number",
+            "match": {
+              "location": "Login.user_enters_a_valid_ID_number()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "User enters a valid contact number or email",
+            "match": {
+              "location": "Login.user_enters_a_valid_contact_number_or_email()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "User selects reason for visit by clicking the dropdown arrow",
+            "match": {
+              "location": "Login.user_selects_reason_for_visit_by_clicking_the_dropdown_arrow()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "User selects location by clicking the dropdown arrow",
+            "match": {
+              "location": "Login.user_selects_location_by_clicking_the_dropdown_arrow()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "User enters temperature measured",
+            "match": {
+              "location": "Login.user_enters_temperature_measured()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "User enters a valid residential location",
+            "match": {
+              "location": "Login.user_enters_a_valid_residential_location()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "User clicks do you have a mask label",
+            "match": {
+              "location": "Login.user_clicks_do_you_have_a_mask_label()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "User clicks do you have hand sanitizer label",
+            "match": {
+              "location": "Login.user_clicks_do_you_have_hand_sanitizer_label()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "comments": [
+              {
+                "line": 17,
+                "value": "#\tAnd User clicks i am not label"
+              }
+            ],
+            "line": 18,
+            "name": "User clicks the save button",
+            "match": {
+              "location": "Login.user_clicks_the_save_button()"
+            },
+            "keyword": "When "
+          }
+        ]
+      }
+    ],
+    "name": "Sign up as a visitor",
+    "description": "User navigates to covid app and fill in required infor to get qr code",
+    "id": "sign-up-as-a-visitor",
+    "keyword": "Feature",
+    "uri": "Login.feature"
+  }
+]
