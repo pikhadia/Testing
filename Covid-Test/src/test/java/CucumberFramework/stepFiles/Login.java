@@ -79,7 +79,7 @@ public class Login {
 	@And("^User enters a valid ID number$")
 	public void user_enters_a_valid_ID_number() throws Throwable {
 		Thread.sleep(2000);
-		driver.findElement(By.xpath(".//*[@id=\"input2\"]")).sendKeys("abc");
+		driver.findElement(By.xpath(".//*[@id=\"input2\"]")).sendKeys("7909295519087");
 	}
 
 	@And("^User enters a valid contact number or email$")
