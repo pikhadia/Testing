@@ -1,5 +1,5 @@
-Feature: Sign up as a visitor
-	User navigates to covid app and fill in required infor to get qr code
+Feature: Sign up as a user
+	User navigates to covid app and fill in required info to get QR code
 	
 Scenario: Navigate to covidstreamline.com app
 	Given User navigates to covid app 
